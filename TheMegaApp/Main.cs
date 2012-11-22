@@ -12,8 +12,12 @@ namespace TheMegaApp
 			int i;
 			if (Int32.TryParse(choice.KeyChar.ToString(), out i))
 			    Console.WriteLine ("it looks like you chose a number");
+			else 
+				Console.WriteLine ("You need to pick a number!");
 
-			Console.WriteLine ("Hello World!");
+			return;
+
+
 		}
 	}
 }
